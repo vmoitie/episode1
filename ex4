@@ -1,3 +1,4 @@
+#!/bin/bash
 txt_files=$(find . -type f -name "*.txt")
 
 if [ -z "$txt_files" ]; then
